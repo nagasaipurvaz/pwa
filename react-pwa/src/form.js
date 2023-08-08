@@ -55,7 +55,7 @@ const Forms = () => {
         Submit
       </button>
     </form>
-
+<br/>
     {savedInput && (
         <div>
           <h2>Input Saved:</h2>

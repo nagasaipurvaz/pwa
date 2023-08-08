@@ -1,4 +1,4 @@
-import React, { useEffect,useState} from 'react';
+import React, {useState} from 'react';
 import './form.css';
 import axios from 'axios';
 
@@ -18,9 +18,9 @@ const Anagrams = () => {
   }, 5000)
 
    return ( 
-    <div>
-      <h1>Documents from MongoDB</h1>
-      <ul>
+    <div className="app-container">
+      <h1>Ngrams</h1>
+      <ul className="document-list">
         {documents.map((doc, index) => (
           <li key={index} className="document-item">
             <strong>Text:</strong> {doc.text} <br />
