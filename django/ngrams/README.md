@@ -27,3 +27,5 @@ $ python manage.py runserver
 And navigate to `http://127.0.0.1:8000/api/ngrams-comparison/`.
 
 to get the json data from mongodb
+
+add the mongodb atlas string in the uri in the db_connection.py file 
