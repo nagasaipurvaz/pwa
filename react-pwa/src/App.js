@@ -11,7 +11,7 @@ const App = () => {
 
 
     <div className="app">
-      <h1>Form </h1>
+      <h1>Insert the data</h1>
       <Forms/>
       <Anagram />
     </div>
