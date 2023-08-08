@@ -13,7 +13,7 @@ app.use(morgan('dev'));
 app.use(cors());
 
 // MongoDB setup
-const mongoURI = 'mongodb+srv://purvaz:purvaz@cluster0.ywkwpmm.mongodb.net/?retryWrites=true&w=majority';
+const mongoURI = 'mongodb+srv://<username>:<password>@cluster0.ywkwpmm.mongodb.net/?retryWrites=true&w=majority';
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('MongoDB connected'))
   .catch((err) => console.error('Error connecting to MongoDB:', err));
